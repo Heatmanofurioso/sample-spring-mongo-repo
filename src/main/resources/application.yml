@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      database: SampleDB
+      host: localhost
+      port: 27017
+      username: root
+      password: example
+      authentication-database: admin
+  application:
+    name: Sample Spring Boot App
+
+management:
+  endpoints.web.exposure.include: '*'
+  endpoint.prometheus.enabled: true
+
+logging:
+  file.name: spring-boot-app.log
+
+springdoc.show-actuator: true

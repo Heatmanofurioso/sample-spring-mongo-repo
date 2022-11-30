@@ -1,0 +1,54 @@
+#FrontEnd
+dist/
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+
+# IDEs
+jsconfig.json
+.vscode/
+
+# Typings file.
+typings/
+
+# Misc
+tmp/
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+.ideaDataSources/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+log/
+target/
+
+#Vagrant
+vagrant/box/CLC_vagrant.box
+vagrant/.vagrant/
+vagrant/deployments/
+
+#Java
+*.war*
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+*.log
+
+*.gz
+*.tmp

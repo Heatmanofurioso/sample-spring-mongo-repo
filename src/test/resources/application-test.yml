@@ -1,0 +1,20 @@
+spring:
+  mongodb:
+    embedded:
+      version: 4.0.21
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: SampleDatabase
+  application:
+    name: Sample Spring Boot App - Test
+
+management:
+  endpoints.web.exposure.include: '*'
+  endpoint.prometheus.enabled: true
+
+logging:
+  file.name: spring-boot-app.log
+
+mongock.enabled: false
