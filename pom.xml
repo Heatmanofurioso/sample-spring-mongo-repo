@@ -70,8 +70,8 @@
         </dependency>
         <dependency>
             <groupId>de.flapdoodle.embed</groupId>
-            <artifactId>de.flapdoodle.embed.mongo</artifactId>
-            <version>4.0.8-beta</version>
+            <artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
+            <version>4.0.1-beta</version>
             <scope>test</scope>
         </dependency>
         <!--Testing-->

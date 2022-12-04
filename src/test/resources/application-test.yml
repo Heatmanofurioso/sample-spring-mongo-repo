@@ -1,7 +1,4 @@
 spring:
-  mongodb:
-    embedded:
-      version: 4.0.21
   data:
     mongodb:
       host: localhost
@@ -18,3 +15,9 @@ logging:
   file.name: spring-boot-app.log
 
 mongock.enabled: false
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 4.0.21
